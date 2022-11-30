@@ -1,0 +1,84 @@
+.insights-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 190px;
+    background-color: #F7F4EF;
+    max-width: 100rem;
+}
+
+.insights-border{
+    padding: 20px;
+}
+.insights-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.allRecources-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.insights-articles-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 150px;
+}
+
+
+.insights-background{
+    position: absolute;
+    width: 80%;
+   
+}
+
+.insights-shade {
+    position: relative;
+    width: 80%;
+}
+
+.article{
+    position: relative;
+    width:250px;
+}
+
+.insights-content{
+    position: relative;
+    display: flex;
+   
+    
+}
+
+.text-cont{
+    position: relative;
+    width: 85%;
+    right: 284px;
+    font-family: 'Montserrat'
+}
+
+.insights-footer{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Montserrat";
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Montserrat";
+}

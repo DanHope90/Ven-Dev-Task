@@ -1,0 +1,28 @@
+.liveRole-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+.border-color{
+    background-color: #F7F4EF;
+    padding: 13px;
+   
+}
+
+.liveRole{
+    background-color: white;
+    width: 50%;
+    padding: 7px;
+}
+
+.job-description{
+    font-size: small;
+}
+
+.view-job{
+    display: flex;
+    flex-direction: row;
+}

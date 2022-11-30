@@ -1,0 +1,109 @@
+.dep-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    position: relative;
+    max-width: 100rem;
+}
+
+.finance-container{
+    display: flex;
+    flex-direction: column;  
+}
+
+.dep-img {
+    width: 550px;
+}
+
+.dep-title{
+    padding-left: 10px
+}
+
+.property-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 92.5px;
+}
+
+.space{
+    padding: 5px;
+}
+
+.dep-into-cont{
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F4EF;
+    
+}
+
+.dep-into-para {
+    width: 500px;
+    font-family: "Montserrat";
+    font-size:small;
+    padding-left: 10px
+    
+   
+}
+
+.call-team {
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 5px;
+    color: #FC7753;
+    padding-left: 10px
+    
+}
+
+.call-team-para{
+    padding-right: 10px;
+}
+
+.call-btn {
+    display:block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #F7F4EF;
+    border: solid 0.5px #FC7753;
+    
+}
+
+.call-btn:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+
+.list-row{
+   border-top: 1px solid black;
+}
+
+.list-row:hover{
+   color: #FC7753;
+   border: none;
+}
+
+.sub-para{
+    margin: 0px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Montserrat";
+}
+
+.sub-para:hover {
+     background: #03363d50;
+     cursor: pointer;
+    
+}
+
+
+
+
+

@@ -1,0 +1,131 @@
+.client-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 100rem;
+    position: relative;
+    
+}
+
+.left-img-col{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+
+.client-back-img1{
+    position: relative;
+    top: -10px;
+    left: 196px;
+    height: 600px;
+    border:1px solid #000;
+    
+}
+
+.client-para {
+    font-family: 'Montserrat';
+}
+
+.client-para-btn {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    padding-right: 10px
+}
+
+.client-overlay-img{
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    width: 80%;
+    border: 1px solid #000000;
+}
+
+.right-client-col {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px
+}
+
+.right-client-img{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.concrete-back-img{
+    width: 78.5%;
+    max-width: 100rem;
+    position: relative;
+    top: -10px;
+    left: 200px;
+    border: 1px solid #000000;
+}
+
+.circle {
+    position: absolute;
+    width: 100px;
+    top: 120px;
+    left: 500px;
+    border-radius: 50%;
+}
+
+.circle:hover{
+    background: rgb(255, 209, 125);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+/* .cand-textbox-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 390px;
+    padding-right:90px;
+} */
+
+.client-textbox-cont{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 390px;
+    left: 30%;
+    top: 70px;
+    padding: 0px;
+}
+
+.client-link{
+    display: flex;
+    flex-direction: row;
+}
+
+.client-btn{
+    display:block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: white; 
+    border: solid 0.5px #FC7753;
+}
+
+.arrow-sbmt{
+    color: #FC7753;
+    position: relative;
+    top: 2px;
+    
+}
+
+.client-btn:hover {
+    background: rgb(255, 209, 125);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+
+
