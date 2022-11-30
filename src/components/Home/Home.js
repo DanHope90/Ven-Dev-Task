@@ -7,8 +7,9 @@ import contacts from "./contacts.svg";
 import HomeImage from "./riccardo-oliva-C5DLhUkEWfM-unsplash.svg";
 import SearchButton from "./magnifying-glass.svg";
 import line from "./orange-line.svg";
+import arrowDown from './down-arrow.svg';
 
-function WeListen_1() {
+function Home() {
 
     return (
         <div className="home-container" >
@@ -48,9 +49,11 @@ function WeListen_1() {
                 
             <div className="green-col-cont">
                 <img className="logo" src={logo} alt="logo" />
+               
             </div>
+            <img className="arrow-down" arc={arrowDown} />
         </div>
     )
 }
 
-export default WeListen_1;
+export default Home;
